@@ -1,0 +1,13 @@
+{
+  "database": {
+    "default": {
+      "host": "xxxxx",
+      "user": "xxxxx",
+      "password": "xxxxx",
+      "database": "xxxxx"
+    }
+  },
+  "server": {
+    "port": 9001
+  }
+}

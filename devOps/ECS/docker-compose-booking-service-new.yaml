@@ -1,0 +1,12 @@
+version: '3'
+services:
+  xxxxxx-service-container:
+    image: "xxxxxxxxxxx"
+    ports:
+      - "80:80"
+    logging:
+      driver: awslogs
+      options:
+        awslogs-group: xxxxxx-service
+        awslogs-region: ap-southeast-1
+        awslogs-stream-prefix: xxxxxx-service
