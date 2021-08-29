@@ -14,7 +14,7 @@ typeKoa.bootstrapControllers({
   middlewareList: []
 });
 
-mysqlService.init();
+// mysqlService.init();
 
 let httpServer = typeKoa.app.listen(port, host);
 const app = typeKoa.app.callback();
